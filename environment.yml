@@ -1,0 +1,10 @@
+
+name: fargen-db-scripts
+
+channels:
+    - conda-forge
+
+dependencies:
+    - pip=20.2.2
+    - pip:
+        - redis==3.5.3
